@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #116D44;
+    background-position: center;
+}
+
+    header{
+        align-items: center;
+    }
+
+    nav{
+        font-family: 'Saira Condensed', sans-serif;
+    }
+
+    main .row{
+        margin-left: 0;
+    }
+
+        .box{
+            width: 100%;
+            height: 600px;
+            padding: 40px 60px;
+            color: white;
+            font-family: 'Saira Condensed', sans-serif;
+            text-align: center;
+        }  
+
+            .box h1{
+                font-family: 'Anton', sans-serif;
+                font-size: 50px;
+                text-shadow: 0px 0px 5px #000;
+            }
+
+            .box p{
+                font-size: 25px;
+                margin-top: 100px;
+            }
+
+        .sec1{
+            height: 100vh;
+            background-image: url(/img/indexbg1.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+            .wwa{
+                text-shadow: 0px 0px 5px #c9870d !important;
+            }
+
+        .sec2{
+            background: #28689c;
+        }
+
+        .sec3{
+            height: 100vh;
+            background-image: url(/img/indexbg2.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+            .sec3 p{
+                color: wheat;
+                text-shadow: 3px 3px 10px #000 ;
+            }
+
+            .numh1{
+                text-shadow: 0px 0px 5px cadetblue !important;
+            }
+
+            .numh2{
+                font-family: 'Anton', sans-serif;
+                font-size: 40px;
+                text-shadow: 0px 0px 5px wheat;
+            }
+
+            .nump{
+                text-shadow: 0px 0px 5px grey;
+            }
+
+        .sec4{
+            background: #c99d0d;
+        }
+
+            .fos{
+                text-shadow: 0px 0px 5px #28689c !important;
+            }
+
+            .carousel{
+                width: 640px;
+                height: 360px;
+                margin: 0 auto;
+            }
+
+                .carousel-inner img{
+                    width: 640px;
+                    height: 360px;                  
+                }
+
+                    .carousel-caption{
+                        color: rgb(255, 193, 121);
+                        text-shadow: 3px 3px 2px black;
+                    }
+
+        .sec5{
+            height: 100vh;
+            background-image: url(/img/indexbg3.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+            .sec5 h2{
+                font-family: 'Anton', sans-serif;
+            }
+
+            .sec5 h2, p{
+                text-shadow: 3px 3px 10px #000;
+            }
+        
+        .sec6{
+            background: #28689c;
+        }
